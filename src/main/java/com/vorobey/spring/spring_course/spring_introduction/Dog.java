@@ -1,5 +1,9 @@
 package com.vorobey.spring.spring_course.spring_introduction;
 
+import org.springframework.stereotype.Component;
+
+@Component
+// beanID - dog
 public class Dog implements Pet {
     private String name;
 
