@@ -1,12 +1,10 @@
 package com.vorobey.spring.spring_course.spring22;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.*;
 
 @Configuration
-@ComponentScan("com.vorobey.spring.spring_course.spring22")
+@PropertySource("classpath:myApp.properties")
+//@ComponentScan("com.vorobey.spring.spring_course.spring22")
 public class MyConfig {
 
     @Bean
